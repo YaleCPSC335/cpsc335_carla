@@ -42,14 +42,7 @@
                     "image_size_x": 800,
                     "image_size_y": 600,
                     "fov": 90.0,
-                    "sensor_tick": 0.05,
-                    "attached_objects":
-                    [
-                        {
-                            "type": "actor.pseudo.control",
-                            "id": "control"
-                        }
-                    ]
+                    "sensor_tick": 0.05
                 },
                 {
                     "type": "sensor.lidar.ray_cast",
