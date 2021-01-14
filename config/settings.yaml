@@ -1,7 +1,7 @@
 use_sim_time: true
 carla:
   # the network connection for the python connection to CARLA
-  host: localhost
+  host: 172.28.228.136
   port: 2000
   timeout: 10
   # enable/disable passive mode.
@@ -18,4 +18,4 @@ carla:
     # the role name of the vehicles that acts as ego vehicle for this ros bridge instance
     # Only the vehicles within this list are controllable from within ROS.
     # (the vehicle from CARLA is selected which has the attribute 'role_name' set to this value)
-    role_name: ["hero", "ego_vehicle", "ego_vehicle_cpsc335", "hero0", "hero1", "hero2", "hero3", "hero4", "hero5", "hero6", "hero7", "hero8", "hero9", ]
+    role_name: ["hero", "ego_vehicle", "vehicle_cpsc335_name", "hero0", "hero1", "hero2", "hero3", "hero4", "hero5", "hero6", "hero7", "hero8", "hero9", ]

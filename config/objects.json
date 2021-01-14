@@ -22,8 +22,8 @@
             "id": "map"
         },
         {
-            "type": "vehicle.audi.a2",
-            "id": "ego_vehicle_cpsc335",
+            "type": "vehicle.tesla.model3",
+            "id": "vehicle_cpsc335_name",
             "sensors": 
             [
                 {
